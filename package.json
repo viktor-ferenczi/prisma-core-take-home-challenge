@@ -1,0 +1,35 @@
+{
+  "name": "prisma-core-take-home-challenge",
+  "version": "1.0.0",
+  "typescript": "^5.7.0",
+  "main": "index.js",
+  "scripts": {
+    "example": "tsx scripts/example.ts",
+    "test": "jest",
+    "build-grammar": "peggy -o src/grammar/query.js src/grammar/query.pegjs",
+    "eslint": "eslint",
+    "eslint-write": "eslint --fix .",
+    "prettier": "prettier --check .",
+    "prettier-write": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Viktor Ferenczi",
+  "license": "MIT",
+  "description": "Prisma Core Take Home Challenge",
+  "dependencies": {
+    "csv": "^6.3.11",
+    "data-structure-typed": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.7",
+    "@typescript-eslint/eslint-plugin": "^8.21.0",
+    "@typescript-eslint/parser": "^8.21.0",
+    "eslint": "^9.18.0",
+    "jest": "^29.7.0",
+    "peggy": "^4.2.0",
+    "prettier": "^3.4.2",
+    "ts-jest": "^29.2.5",
+    "tsx": "^4.19.2"
+  }
+}

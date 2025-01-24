@@ -1,0 +1,6 @@
+pnpm-lock.yaml
+.idea/
+query.js
+src/__tests__/input
+src/__tests__/actual
+src/__tests__/expected
