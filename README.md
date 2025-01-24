@@ -259,13 +259,14 @@ possible in those cases as well, but it would likely conflict with the OS provid
 
 In order to make this code production ready the following steps need to be done:
 
-1. Build a few simple example applications. Doing so would verify that no essential features were missed.
-2. Add tests to reach 100% branch coverage, including any error handling clauses as well.
-3. Make sure no lint errors and warnings remain in the code.
-4. Normalize code formatting to minimize future diffs.
-5. Add the necessary CI/CD configuration and scripts to test PRs and build releases automatically on merge.
-6. Make sure that it runs on the latest stable language versions and interoperable with the latest stable library versions.
-7. Make sure no package versions with known critical security issues are used. Update the dependency versions as needed.
-8. Generate documentation from the docstrings in the source code. Add any necessary explanation and a straightforward summary of features at the top. Reference the example applications as well.
-9. Introduce a script to automatically publish the documentation on each new release.
-10. Set up a support channel to receive bug reports and feature suggestions. GitHub issues or similar. Discord channel for discussion.
+1. Package for distribution via `npm`, use a unique namespace for the module.
+2. Build a few simple example applications. Doing so would verify that no essential features were missed.
+3. Add tests to reach 100% branch coverage, including any error handling clauses as well.
+4. Make sure no lint errors and warnings remain in the code.
+5. Normalize code formatting to minimize future diffs.
+6. Add the necessary CI/CD configuration and scripts to test PRs and build releases automatically on merge.
+7. Make sure that it runs on the latest stable language versions and interoperable with the latest stable library versions.
+8. Make sure no package versions with known critical security issues are used. Update the dependency versions as needed.
+9. Generate documentation from the docstrings in the source code. Add any necessary explanation and a straightforward summary of features at the top. Reference the example applications as well.
+10. Introduce a script to automatically publish the documentation on each new release.
+11. Set up a support channel to receive bug reports and feature suggestions. GitHub issues or similar. Discord channel for discussion.
